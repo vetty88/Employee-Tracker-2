@@ -1,15 +1,15 @@
 import axios from "axios";
 
-// Export an object containing methods we'll use for accessing the Employee.Ceo API
+// Export an object containing methods we'll use for accessing the dog.Ceo API
 
 export default {
   getRandomWorker: function() {
-    return axios.get("https://Employee.ceo/api/roles/image/random");
+    return axios.get("https://dog.ceo/api/breed/image/random");
   },
   getWorkersOfRole: function(role) {
-    return axios.get("https://Employee.ceo/api/role/" + role + "/images");
+    return axios.get("https://dog.ceo/api/breed/" + role + "/images");
   },
   getBaseRolesList: function() {
-    return axios.get("https://Employee.ceo/api/roles/list");
+    return axios.get("https://dog.ceo/api/breed/list");
   }
 };
