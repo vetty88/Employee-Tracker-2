@@ -1,24 +1,20 @@
 {
-  "results": "yw-employeetracker2",
+  "name": "yw-employeetracker2",
   "version": "0.1.0",
-  "private": true,
   "engines": {
     "node": "12.x"
   },
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
     "babel": "^6.23.0",
-    "bootstrap": "^4.5.2",
-    "chokidar": "^3.4.3",
     "flow": "^0.2.3",
     "jsx": "^0.9.89",
-    "npm": "^7.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "typescript": "^4.0.5",
     "web-vitals": "^0.2.4"
@@ -46,26 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "name": "yw-employeetracker2",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vetty88/Employee-Tracker-2.git"
-  },
-  "keywords": [
-    "employee",
-    "directory",
-    "contacts",
-    "react",
-    "heroku"
-  ],
-  "author": "Y Waller",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vetty88/Employee-Tracker-2/issues"
-  },
-  "homepage": "https://github.com/vetty88/Employee-Tracker-2#readme"
+  }
 }
